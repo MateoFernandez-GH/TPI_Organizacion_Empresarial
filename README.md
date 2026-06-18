@@ -69,3 +69,9 @@ El proyecto se encuentra modularizado de la siguiente manera:
 🫵🏻 TE TOCA A VOS ! Interactuá con nuestro Bot 🤖💻 
 
 ---> Presiona el siguiente enlace : https://t.me/AltaProveedoresChubutBot
+
+
+### 🫱🏼‍🫲🏼 Integrantes del Proyecto:  
+- Mateo Fernández
+- Aaron Axel Cambursano
+
