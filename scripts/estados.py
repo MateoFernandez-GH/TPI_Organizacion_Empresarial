@@ -1,18 +1,33 @@
 # En este archivo, definimos los estados coincidentes con nuestra "maquina de estados", de los cuales se va a valer el programa para cumplir 
 # con su condicion de "estado unico".
 
-ESTADO_ESPERANDO_CUIT = 1
+INICIO = 1
 
-ESTADO_ESPERANDO_RAZON_SOCIAL = 2
+SOLICITAR_CUIT = 2
 
-ESTADO_ESPERANDO_EMAIL = 3
+VALIDACION_CUIT = 3
 
-ESTADO_ESPERANDO_TELEFONO = 4
+CONSULTAR_DUPLICADO = 4
 
-ESTADO_ESPERANDO_RUBRO = 5
+FIN_RECHAZADA = 5  # Estado en el que el sistema corta su ejecucion, rechazando el proceso de carga del usuario.
 
-ESTADO_ESPERANDO_CBU = 6
+SOLICITAR_RAZON_SOCIAL = 6
 
-ESTADO_COMPLETAR_FALTANTES = 7
+SOLICITAR_EMAIL = 7
 
-ESTADO_FINALIZADO = 8
+VALIDACION_EMAIL = 8
+
+SOLICITAR_TELEFONO = 9 
+
+VALIDACION_TELEFONO = 10
+
+SOLICITAR_RUBRO = 11
+
+SOLICITAR_CBU = 12 
+
+VALIDACION_CBU = 13
+
+REGISTRO_COMPLETO = 14
+
+FIN_APROBADA = 15
+
