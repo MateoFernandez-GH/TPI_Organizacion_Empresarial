@@ -64,6 +64,7 @@ El proyecto se encuentra modularizado de la siguiente manera:
 ├── .gitignore           # Exclusión de entornos virtuales y archivos de entorno (.env).
 └── README.md            # Documentación general del repositorio (Este archivo).
 
-## 🫵🏻 TE TOCA A VOS ! Interactuá con nuestro Bot 🤖💻 
+
+🫵🏻 TE TOCA A VOS ! Interactuá con nuestro Bot 🤖💻 
 
 ---> Presiona el siguiente enlace : https://t.me/AltaProveedoresChubutBot
