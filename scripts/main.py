@@ -11,12 +11,16 @@ from telegram.ext import (
 )
 from validaciones import validar_cuit
 from base_datos import existe_proveedor, crear_base_datos
+import os 
+from dotenv import load_dotenv
 
 
 #=======================================================================================================================================#
+# Carga las variables de entorno desde .env
+load_dotenv()
 
-# Ingresamos el Token provisto por Telegram al crear nuestro Bot
-TOKEN = "8706747633:AAFFfGz2QINndaWmoJ0z8IsJEsjV3IU1GIA"
+# Lee el token desde la variable de entorno, de manera Segura - sin riesgos de exponerlo
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 # Incluimos un "manejador de comandos" asincronico (para que el bot pueda manejar multiples usuarios simultaneamente sin
 # bloquear la ejecucion ) para dar la buenvenida al Usuario con el que interactuamos...
